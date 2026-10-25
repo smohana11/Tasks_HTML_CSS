@@ -1,0 +1,18 @@
+div{
+    color: black;
+    background-color: palevioletred;
+    height: 300px;
+    width: 300px;
+    padding: 5px;
+    border: 2px solid rgb(215, 16, 82);
+    border-radius: 3px;
+}
+h2{
+    background-color: aqua;
+}
+h4{
+    background-color: bisque;
+}
+h6{
+    background-color: aquamarine;
+}
