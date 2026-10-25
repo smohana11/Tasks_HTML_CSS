@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block and Inline elements</title>
+    <style>
+        .block h2{
+            color: blueviolet;
+        }
+        .block{
+            margin: 2%;
+            background-color: bisque;
+            padding: 10px;
+            width: 500px;
+            height: 150px;
+        }
+        .block p{
+            background-color: aquamarine;
+        }
+        .block div{
+            background-color: rgb(156, 232, 235);
+        }
+        .inline h2{
+            color: darkmagenta;
+        }
+        .inline{
+            margin: 2%;
+        }
+    </style>
+</head>
+<body>
+    <div class="block">
+       <h2>Block-level Element</h2>
+       <p>This is a Paragraph</p>
+       <div>
+        This is a div element.
+        It is Block-level element.
+       </div>
+    </div>
+
+    <br><hr><br>
+
+    <div class="inline">
+       <h2>Inline Element</h2>
+       <p>
+        This is inline element. Example : <span style="color: darkred;">span</span> , <strong style="color: darkslateblue;">Strong</strong>
+        , <a href="#">Anchor</a> , <i style="color: deeppink;">Italic</i> , <u style="color: fuchsia;">Underline</u> , <mark>Highlight</mark> and <b style="color: green;">Bold Elements.</b>
+       </p>
+    </div>
+</body>
+</html>
