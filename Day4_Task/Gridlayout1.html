@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid_Layout_1</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 100px 150px 150px 100px;
+            grid-template-areas:
+                    "header header header"
+                     "nav article article"
+                     "ads article article"
+                     "footer footer footer";
+        }
+
+        header {
+            grid-area: header;
+            background: lightblue;
+            text-align: center;
+            padding-top: 5%;
+        }
+
+        nav {
+            grid-area: nav;
+            background: lightgreen;
+            text-align: center;
+             padding-top: 25%;
+
+        }
+
+        article {
+            grid-area: article;
+            background: lightgray;
+            text-align: center;
+            padding-top: 25%;
+        }
+
+        aside {
+            grid-area: ads;
+            background: rgb(204, 161, 81);
+            text-align: center;
+            padding-top: 25%;
+        }
+
+        footer {
+            grid-area: footer;
+            background: pink;
+            text-align: center;
+            padding-top: 5%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <header>
+        HEADER
+    </header>
+    <nav>
+        NAVIGATION
+    </nav>
+    <article>
+        ARTICLE 
+    </article>
+    <aside>
+        ADVERTISEMENT
+    </aside>
+    <footer>
+        FOOTER
+    </footer>
+</div>
+</body>
+</html>
