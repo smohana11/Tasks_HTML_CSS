@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    overflow: hidden;
+}
+.logo{
+    display: flex;
+    margin-left: 5%;
+    transition: color 1s ease-in;
+}
+.logo:hover{
+    color: gold;
+}
+.parent{
+    border: 1px solid white;
+    background-color: rgb(121, 11, 77);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    border: none;
+    height: 4vh;
+}
+.welcome{
+    color:black;
+    transition: color ease-in;
+}
+.welcome:hover{
+     color:  rgb(121, 11, 77);
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 70px;
+    margin-right: 100px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: white;
+    transition: color 0.5 ease;
+}
+a:hover{
+    color: gold;
+    text-decoration: underline;
+}
+.middle{
+     text-align: center;
+     border: 1px solid white;
+     background-color: rgb(228, 211, 220);
+     border: none;
+     height: 35vh;
+     padding-top: 70px;
+     transition: background-color 1s ease;
+}
+.middle:hover{
+    background-color: rgb(207, 168, 189);
+}
+.btn{
+    background-color: rgb(121, 11, 77);
+    color: white;
+    width: 8%;
+    height:17%;
+    border-radius: 3px;
+    border: 1px solid white;
+    border: none;
+    box-shadow: 2px 2px 10px rgb(69, 26, 61);
+    transition: all 0.5s ease-out;
+}
+.btn:hover{
+    transform: translateY(-10px);
+     box-shadow: 2px 2px 10px rgb(69, 26, 61);
+}
+.article{
+    border: 1px solid white;
+    border: none;
+    background-color: rgb(240, 235, 239);
+    height: 33vh;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.title-article{
+    text-align: center;
+    color: black;
+    transition: color 0.5s ease;
+}
+.title-article:hover{
+    color:  rgb(121, 11, 77);
+}
+.html{
+    border: 1px solid white;
+    box-shadow: 1px 1px 6px grey;
+    width: 12%;
+    height: 55%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px;
+    margin-left: 20%;
+}
+.css{
+    border: 1px solid white;
+    box-shadow: 1px 1px 6px grey;
+    width: 12%;
+    height: 50%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px;
+}
+.js{
+    border: 1px solid white;
+    box-shadow: 1px 1px 6px grey;
+    width: 12%;
+    height: 50%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px;
+    margin-right: 20%;
+}
+.course{
+    display: flex;
+    justify-content: space-around;
+}
+.html h3,.css h3,.js h3{
+     color:rgb(121, 11, 77) ;
+}
+.html, .css, .js {
+    transition: all 0.5s ease;
+}
+.html:hover {
+    transform: translateY(-10px);
+    background-color:  rgb(228, 211, 220);
+    box-shadow: 2px 5px 15px grey;
+}
+.css:hover {
+    transform: translateY(-10px);
+    background-color: rgb(228, 211, 220);
+    box-shadow: 2px 5px 15px grey;
+}
+.js:hover {
+    transform: translateY(-10px);
+    background-color: rgb(228, 211, 220);
+    box-shadow: 2px 5px 15px grey;
+}
+footer{
+    background-color:rgb(188, 59, 136) ;
+    height: 5vh;
+    padding: 15px 50px;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    transition: background-color 1s ease-in-out;
+}
+footer p{
+    transition: color 1s ease-in-out;
+}
+footer p:hover{
+    transform: scale(1.1);
+}
+footer:hover{
+    background-color: rgb(121, 11, 77);
+}
+
+
+
